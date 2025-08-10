@@ -1,0 +1,260 @@
+[
+  {
+    "id": 1,
+    "orderNumber": "PO-2024-001",
+    "supplierId": 1,
+    "companyId": 1,
+    "purchaseDate": "2024-12-15T10:30:00Z",
+    "expectedDelivery": "2024-12-22T10:30:00Z",
+    "totalAmount": 25000.00,
+    "paymentStatus": "paid",
+    "paymentMethod": "bank_transfer",
+    "orderStatus": "delivered",
+    "items": [
+      {
+        "inventoryId": 1,
+        "quantity": 20,
+        "unitCost": 750.00,
+        "totalCost": 15000.00
+      },
+      {
+        "inventoryId": 7,
+        "quantity": 10,
+        "unitCost": 900.00,
+        "totalCost": 9000.00
+      },
+      {
+        "inventoryId": 13,
+        "quantity": 15,
+        "unitCost": 66.67,
+        "totalCost": 1000.00
+      }
+    ],
+    "notes": "Electronics restock order for holiday season"
+  },
+  {
+    "id": 2,
+    "orderNumber": "PO-2024-002",
+    "supplierId": 2,
+    "companyId": 2,
+    "purchaseDate": "2024-12-14T14:20:00Z",
+    "expectedDelivery": "2024-12-21T14:20:00Z",
+    "totalAmount": 12000.00,
+    "paymentStatus": "pending",
+    "paymentMethod": "credit_card",
+    "orderStatus": "ordered",
+    "items": [
+      {
+        "inventoryId": 6,
+        "quantity": 100,
+        "unitCost": 45.00,
+        "totalCost": 4500.00
+      },
+      {
+        "inventoryId": 12,
+        "quantity": 200,
+        "unitCost": 12.00,
+        "totalCost": 2400.00
+      }
+    ],
+    "notes": "Clothing materials for spring collection"
+  },
+  {
+    "id": 3,
+    "orderNumber": "PO-2024-003",
+    "supplierId": 3,
+    "companyId": 3,
+    "purchaseDate": "2024-12-13T09:15:00Z",
+    "expectedDelivery": "2024-12-20T09:15:00Z",
+    "totalAmount": 8500.00,
+    "paymentStatus": "paid",
+    "paymentMethod": "check",
+    "orderStatus": "in_transit",
+    "items": [
+      {
+        "inventoryId": 5,
+        "quantity": 50,
+        "unitCost": 55.00,
+        "totalCost": 2750.00
+      },
+      {
+        "inventoryId": 10,
+        "quantity": 20,
+        "unitCost": 75.00,
+        "totalCost": 1500.00
+      },
+      {
+        "inventoryId": 14,
+        "quantity": 100,
+        "unitCost": 22.00,
+        "totalCost": 2200.00
+      }
+    ],
+    "notes": "Office and home supplies restock"
+  },
+  {
+    "id": 4,
+    "orderNumber": "PO-2024-004",
+    "supplierId": 5,
+    "companyId": 5,
+    "purchaseDate": "2024-12-12T11:30:00Z",
+    "expectedDelivery": "2024-12-19T11:30:00Z",
+    "totalAmount": 18000.00,
+    "paymentStatus": "partial",
+    "paymentMethod": "bank_transfer",
+    "orderStatus": "ordered",
+    "items": [
+      {
+        "inventoryId": 3,
+        "quantity": 50,
+        "unitCost": 90.00,
+        "totalCost": 4500.00
+      },
+      {
+        "inventoryId": 8,
+        "quantity": 200,
+        "unitCost": 18.00,
+        "totalCost": 3600.00
+      },
+      {
+        "inventoryId": 11,
+        "quantity": 30,
+        "unitCost": 110.00,
+        "totalCost": 3300.00
+      }
+    ],
+    "notes": "Sports equipment for fitness center"
+  },
+  {
+    "id": 5,
+    "orderNumber": "PO-2024-005",
+    "supplierId": 6,
+    "companyId": 6,
+    "purchaseDate": "2024-12-11T13:20:00Z",
+    "expectedDelivery": "2024-12-18T13:20:00Z",
+    "totalAmount": 15000.00,
+    "paymentStatus": "paid",
+    "paymentMethod": "credit_card",
+    "orderStatus": "delivered",
+    "items": [
+      {
+        "inventoryId": 2,
+        "quantity": 15,
+        "unitCost": 680.00,
+        "totalCost": 10200.00
+      },
+      {
+        "inventoryId": 9,
+        "quantity": 500,
+        "unitCost": 7.50,
+        "totalCost": 3750.00
+      },
+      {
+        "inventoryId": 15,
+        "quantity": 300,
+        "unitCost": 6.00,
+        "totalCost": 1800.00
+      }
+    ],
+    "notes": "Beauty products and books restock"
+  },
+  {
+    "id": 6,
+    "orderNumber": "PO-2024-006",
+    "supplierId": 7,
+    "companyId": 7,
+    "purchaseDate": "2024-12-10T15:10:00Z",
+    "expectedDelivery": "2024-12-17T15:10:00Z",
+    "totalAmount": 22000.00,
+    "paymentStatus": "pending",
+    "paymentMethod": "bank_transfer",
+    "orderStatus": "ordered",
+    "items": [
+      {
+        "inventoryId": 4,
+        "quantity": 1000,
+        "unitCost": 6.50,
+        "totalCost": 6500.00
+      },
+      {
+        "inventoryId": 9,
+        "quantity": 800,
+        "unitCost": 7.50,
+        "totalCost": 6000.00
+      },
+      {
+        "inventoryId": 15,
+        "quantity": 1200,
+        "unitCost": 6.00,
+        "totalCost": 7200.00
+      }
+    ],
+    "notes": "Large book order for educational institutions"
+  },
+  {
+    "id": 7,
+    "orderNumber": "PO-2024-007",
+    "supplierId": 1,
+    "companyId": 1,
+    "purchaseDate": "2024-12-09T10:00:00Z",
+    "expectedDelivery": "2024-12-16T10:00:00Z",
+    "totalAmount": 35000.00,
+    "paymentStatus": "paid",
+    "paymentMethod": "check",
+    "orderStatus": "delivered",
+    "items": [
+      {
+        "inventoryId": 1,
+        "quantity": 30,
+        "unitCost": 750.00,
+        "totalCost": 22500.00
+      },
+      {
+        "inventoryId": 7,
+        "quantity": 12,
+        "unitCost": 900.00,
+        "totalCost": 10800.00
+      },
+      {
+        "inventoryId": 13,
+        "quantity": 20,
+        "unitCost": 66.67,
+        "totalCost": 1333.40
+      }
+    ],
+    "notes": "Premium electronics for corporate clients"
+  },
+  {
+    "id": 8,
+    "orderNumber": "PO-2024-008",
+    "supplierId": 3,
+    "companyId": 3,
+    "purchaseDate": "2024-12-08T16:45:00Z",
+    "expectedDelivery": "2024-12-15T16:45:00Z",
+    "totalAmount": 9500.00,
+    "paymentStatus": "partial",
+    "paymentMethod": "credit_card",
+    "orderStatus": "in_transit",
+    "items": [
+      {
+        "inventoryId": 5,
+        "quantity": 30,
+        "unitCost": 55.00,
+        "totalCost": 1650.00
+      },
+      {
+        "inventoryId": 10,
+        "quantity": 15,
+        "unitCost": 75.00,
+        "totalCost": 1125.00
+      },
+      {
+        "inventoryId": 14,
+        "quantity": 150,
+        "unitCost": 22.00,
+        "totalCost": 3300.00
+      }
+    ],
+    "notes": "Office supplies for new branch opening"
+  }
+] 
